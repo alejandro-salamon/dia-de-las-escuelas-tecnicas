@@ -1,0 +1,42 @@
+body{
+
+    background-image: url('img/fondocarton2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     background-position: center;
+}
+
+#divgrande{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divuno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color:  hsl(0, 0%, 0%);
+    border-radius: 20px;
+    margin-top: 200px;
+    color: #ffffff;
+}
+
+#inputedad{
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border: #0000;
+}
+#botonenviar{
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: #0000
+}
